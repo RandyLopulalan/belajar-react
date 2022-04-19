@@ -22,6 +22,7 @@ const FunctionalComponent = ({nama}) =>{
             <button onClick={handleMinus}>-</button>
             <span>{` ${value} `}</span>
             <button onClick={handlePlus}>+</button>
+            <br />
         </div>
     )
 }
