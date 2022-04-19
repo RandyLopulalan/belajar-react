@@ -17,6 +17,7 @@ class ClassComponent extends React.Component{
     }
 
     render(){
+        
         return(
             <div>
                 <h1>komponen ini di buat dengan class komponen</h1>
