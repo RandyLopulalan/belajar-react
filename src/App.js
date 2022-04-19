@@ -1,10 +1,9 @@
-import Welcome from "./Materi/Komponen/index"
-
+import Komponen from "./Materi/Komponen"
 
 function App() {
   return (
     <div className="App">
-     <Welcome />
+      <Komponen />
     </div>
   );
 }
