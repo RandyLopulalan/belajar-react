@@ -1,0 +1,21 @@
+.btn{
+    font-family: sans-serif;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 14px 25px;
+    gap: 10px;
+}
+
+.btn-info{
+    border-color: #2196F3;
+    color: dodgerblue;
+    margin: .5em;
+}
+
+.btn-info:hover{
+    background: #2196F3;
+    color: white;
+    font-size: 20px;
+}

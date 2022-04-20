@@ -1,0 +1,29 @@
+:root{
+    $primary-color: #2196F3;
+    $secondary-color: white;
+}
+
+
+.btn{
+    font-family: sans-serif;
+    border: 2px solid black;
+    background: $secondary-color;
+    color: black;
+    font-weight: bold;
+    padding: 14px 25px;
+    gap: 10px;
+
+
+    .btn-info{
+        border-color: $primary-color;
+        color: dodgerblue;
+        margin: .5em;
+    
+        &:hover{
+            background: $primary-color;
+            color: $secondary-color;
+            font-size: 20px;
+        }
+    }
+}
+
