@@ -1,5 +1,5 @@
 import React from "react";
-import "./BelajarSass"
+import "./belajarSass"
 
 export default class BelajarSass extends React.Component{
 

@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Plain.module.css"
+import style from "./plain.module.css"
 
 export default class ModuleCss extends React.Component{
 

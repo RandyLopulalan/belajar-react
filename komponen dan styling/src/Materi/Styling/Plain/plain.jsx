@@ -1,6 +1,6 @@
 import React from "react";
-import Inline from "./Inline";
-import "./Plain.css"
+import Inline from "./inline";
+import "./plain.css"
 
 export default class Plain extends React.Component{
 

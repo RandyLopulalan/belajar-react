@@ -1,7 +1,7 @@
 import React from 'react'
-import ModuleCss from './Module/ModuleCss'
-import Plain from './Plain/Plain'
-import BelajarSass from './Sass/BelajarSass'
+import ModuleCss from './Module/moduleCss'
+import Plain from './Plain/plain'
+import BelajarSass from './Sass/belajarSass'
 
 export default class Styling extends React.Component {
 

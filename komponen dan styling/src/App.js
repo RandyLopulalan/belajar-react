@@ -1,5 +1,5 @@
 import "./App.css"
-import Komponen from "./Materi/Komponen"
+import Komponen from "./Materi/index"
 import Styling from "./Materi/Styling";
 
 function App() {
