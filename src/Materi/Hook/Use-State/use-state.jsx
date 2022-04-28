@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 const UseState = () => {
+
   const [counter, setCounter] = useState(0);
 
   const increment = () => {
     setCounter(counter + 1);
   };
-
   return (
     <div>
       {counter}
@@ -15,4 +15,4 @@ const UseState = () => {
   );
 };
 
-export default UseState;
+export default UseState

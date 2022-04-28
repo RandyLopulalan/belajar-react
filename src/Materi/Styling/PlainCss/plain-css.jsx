@@ -1,6 +1,5 @@
 import React from "react";
-import Inline from "./inline";
-import "./plain.css"
+import "./plain-css.css"
 
 export default class Plain extends React.Component{
 
@@ -15,7 +14,6 @@ export default class Plain extends React.Component{
             // style css className btn dari <Inline /> 
             // akan di ambil dari plain.jsx yg import "./Plain.css"
            <div>
-               <Inline/>
                <h1 style={this.text}>belajar plain css</h1>
                <button className="btn btn-info">Go Eduwork</button>
                <button className="btn btn-other">Hallo World</button>
