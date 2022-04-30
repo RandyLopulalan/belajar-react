@@ -2,6 +2,7 @@ import React from "react";
 import { UseEffect, UseReducer, UseState } from "../../Materi/Hook";
 import { ClassComponent, FunctionalComponent } from "../../Materi/Komponen";
 import { InlineCss, ModuleCss, PlainCss, Sass } from "../../Materi/Styling";
+import {Form} from "../../Materi/Form/index"
 
 const DisplayMateri = ({ materiSelect }) => {
   
@@ -42,6 +43,10 @@ const DisplayMateri = ({ materiSelect }) => {
     {
       id: "UseReducer",
       page: <UseReducer/>,
+    },
+    {
+      id: "Form",
+      page: <Form/>,
     },
   ];
 
