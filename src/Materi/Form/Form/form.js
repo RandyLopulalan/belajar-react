@@ -38,7 +38,7 @@ const Form = () => {
   }
   const result = (user, password) => {
     const newResult = { id: 1, user: user, password: password };
-    const listResult = [...data,newResult]
+    const listResult = [newResult]
     setData(listResult);
   };
 
