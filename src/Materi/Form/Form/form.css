@@ -1,35 +1,111 @@
-.form {
-  height: auto;
-  width: 30%;
-  border: 1px solid var(--color-bg-variant);
-  border-radius: 1rem;
-  padding: 1.5rem;
+.form_container {
+  position: relative;
+  display: grid;
+  padding: 1rem;
+  width: 100%;
+  height: 100vh;
+}
+
+.result {
+  position: absolute;
+  left: 50%;
+  border: 2px solid var(--color-primary);
+  width: 50%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2rem;
-  padding-bottom: 4rem;
+  align-items: center;
+  text-align: center;
+}
+
+.form {
   position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 20rem;
+  height: auto;
+  border: 2px solid var(--color-primary);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background: transparent;
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.form h3 {
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .form_user {
-  padding: 0.5rem 0.5rem 1.5rem 0.5rem;
   display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 30px 0;
+  position: relative;
 }
 
-.form_user > label {
-  font-size: 18px;
-}
-
-.form_user label:hover {
-  color: red;
+.form_user label {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  font-size: 16px;
+  padding: 10px 0;
+  transition: 0.5s;
 }
 
 .form_user input {
-  width: 100%;
-  padding: 0.5rem 0;
   font-size: 18px;
+  background: none;
+  border-bottom: 2px solid var(--color-primary);
   color: var(--color-primary);
-  border-bottom: 2px solid var(--color-bg-variant);
-  background: transparent;
+  padding: 5px 0;
+}
+
+.form .form_user input:focus ~ label,
+.form .form_user input:valid ~ label {
+  top: -1.2rem;
+  color: var(--color-primary-variant);
+  font-size: 13px;
+}
+
+.form_btn_submit {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: bold;
+  background: var(--color-bg);
+  border: 2px solid var(--color-primary);
+  border-radius: 0.5rem;
+  transition: var(--transition);
+}
+
+.form_btn_submit:hover{
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+  -webkit-text-fill-color: white !important;
+}
+
+.validation{
+  font-size: 15px;
+  color: red;
+}
+
+.validation h3 {
+  margin-top: 1rem;
+  display: flex;
+  text-align: start;
+  color: var(--color-primary);
+}
+
+.valid{
+  color: green;
 }
