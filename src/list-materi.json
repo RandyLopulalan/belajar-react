@@ -1,0 +1,41 @@
+[
+  {
+    "id": 0,
+    "judul": "Styling",
+    "materi": ["ModuleCss", "PlainCss", "InlineCss", "Sass"],
+    "list": [
+      "<ModuleCss />",
+      "<PlainCss />",
+      "<InlineCss />",
+      "<Sass />"
+    ]
+  },
+  {
+    "id": 1,
+    "judul": "Komponen",
+    "materi": ["ClassComponent", "FunctionalComponent"],
+    "list": [
+        "<ClassComponent />",
+        "<FunctionalComponent />"
+      ]
+  },
+  {
+    "id": 2,
+    "judul": "Hook",
+    "materi": ["UseState", "UseEffect", "UseReducer"],
+    "list": [
+        "<UseState />",
+        "<UseEffect />",
+        "<UseReducer />"
+      ]
+  },
+  {
+    "id": 3,
+    "judul": "Form",
+    "materi": ["Form", "Validation"],
+    "list": [
+        "<Form />",
+        "<Validation />"
+      ]
+  }
+]

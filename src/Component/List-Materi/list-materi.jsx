@@ -17,12 +17,17 @@ const ListMateri = ({setMateriSelect}) => {
     {
       id: 2,
       judul: "Hook",
-      materi: ["UseState", "UseEffect", "UseReducer"],
+      materi: ["UseState", "UseEffect", "UseLayoutEffect", "UseReducer", "UseRef" ,"ImperativeHandle"],
     },
     {
       id: 3,
       judul: "Form",
       materi: ["Form", "Validation"],
+    },
+    {
+      id: 4,
+      judul: "Router",
+      materi: ["Router"],
     },
   ];
 
